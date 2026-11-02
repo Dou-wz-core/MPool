@@ -70,6 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)..\</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -146,21 +149,21 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Common_ConnectionPool.h" />
-    <ClInclude Include="Connection.h" />
+    <ClInclude Include="..\Common_ConnectionPool.h" />
+    <ClInclude Include="..\Connection.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Common_ConnectionPool.cpp" />
-    <ClCompile Include="Connection.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="log.h" />
+    <ClCompile Include="..\Common_ConnectionPool.cpp" />
+    <ClCompile Include="..\Connection.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\log.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="MYSQL_connection_pool.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="mysql.ini" />
+    <Text Include="..\mysql.ini" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

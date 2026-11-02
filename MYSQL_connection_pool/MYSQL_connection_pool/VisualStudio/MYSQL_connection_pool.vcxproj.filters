@@ -15,25 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Common_ConnectionPool.h">
+    <ClInclude Include="..\Common_ConnectionPool.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Connection.h">
+    <ClInclude Include="..\Connection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="..\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Common_ConnectionPool.cpp">
+    <ClCompile Include="..\Common_ConnectionPool.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Connection.cpp">
+    <ClCompile Include="..\Connection.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="public.h">
+    <ClCompile Include="..\log.h">
       <Filter>头文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MYSQL_connection_pool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
