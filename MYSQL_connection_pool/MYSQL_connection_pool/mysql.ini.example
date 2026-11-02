@@ -1,0 +1,12 @@
+﻿# Windows下数据库连接池的配置文件
+ip=127.0.0.1
+port=3306
+user=root
+password=YOUR_MYSQL_PASSWORD
+dbname=chat
+initSize=10
+maxSize=1024
+# 最大空闲时间默认单位是秒
+maxIdleTime=60
+# 最大连接超时时间，默认单位是毫秒
+maxConnectionTimeOut=100

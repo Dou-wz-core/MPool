@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MYSQL_connection_pool.vcxproj" Id="f9dc76ac-07ff-4e38-806a-90271470e44b" />
+</Solution>
